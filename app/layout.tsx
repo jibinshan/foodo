@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WhatsappLive from "@/components/WhatsappLive";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased font-matter">
         {children}
+        <WhatsappLive />
       </body>
     </html>
   );
