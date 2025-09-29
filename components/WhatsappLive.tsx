@@ -51,7 +51,7 @@ function WhatsappLive() {
     >
       <span className="relative flex items-center justify-center w-[55px] h-[55px]">
         {/* Ping background */}
-        <span className="absolute inset-0 rounded-full bg-green-500 opacity-75 animate-ping"> </span>
+        <span className="absolute inset-0 rounded-full bg-green-500 opacity-75 animate-ping">  </span>
 
         {/* WhatsApp icon */}
         <Image
